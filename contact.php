@@ -1,12 +1,12 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nombre = $_POST['firstName'];
-    $apellido = $_POST['lastName'];
-    $email = $_POST['email'];
-    $telefono = $_POST['phone'];
-    $mensaje = $_POST['message'];
-
-    $destinatario = "fudsolucionesweb@gamil.com";
+    $nombre = strtolower($_POST['firstName']);
+    $apellido = strtolower($_POST['lastName']);
+    $email = strtolower($_POST['email']);
+    $telefono = strtolower($_POST['phone']);
+    $mensaje = strtolower($_POST['message']);
+    
+    $destinatario = "fudsolucionesweb@gmail.com";
     $asunto = "Nuevo mensaje de tu sitio web";
     $cuerpo = "Nombre: $nombre\nApellido: $apellido\nEmail: $email\nTeléfono: $telefono\nMensaje:\n$mensaje";
 

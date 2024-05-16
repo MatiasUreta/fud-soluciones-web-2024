@@ -285,16 +285,17 @@
                 </div>
 
                 <div class="col-md-5 offset-md-1 mb-3">
-                    <form>
+                    <form action="subscribe.php" method="post">
                         <h5>Subscríbete a nuestro Newsletter</h5>
                         <p class="m-2">Para recibir promociones y novedades</p>
                         <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                             <label for="newsletter1" class="visually-hidden">Email address</label>
-                            <input id="newsletter1" type="text" class="form-control" placeholder="Ingresá tu Email">
-                            <button class="btn btnSuscribirse" type="button">Subscribe</button>
+                            <input id="newsletter1" name="email" type="text" class="form-control" placeholder="Ingresá tu Email">
+                            <button class="btn btnSuscribirse" type="submit">Subscribe</button>
                         </div>
                     </form>
                 </div>
+                
             </div>
 
             <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
