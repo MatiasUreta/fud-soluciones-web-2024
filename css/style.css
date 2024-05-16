@@ -871,6 +871,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 /* FOOTER */
+footer{
+  background: #151515;
+  width: 100%;
+}
 footer h5 {
   color: pink;
 }
@@ -889,5 +893,36 @@ footer h5 {
   font-weight: 500;
   border: 1px solid pink;
   background: #4A2FBD;
+
+}
+
+
+
+.card {
+  border: 1px solid pink;
+  background-color: transparent;
+  color: white;
+}
+
+.card a {
+  color: white;
+}
+
+.card-header {
+  color: pink;
+}
+
+.card ul li {
+  margin-top: 10px;
+}
+
+.tarifas {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.tarifas h2 {
+  text-align: center;
+  color: pink;
+  margin: 15px;
 
 }
