@@ -14,13 +14,13 @@ try {
 $mail->isSMTP();
 $mail->Host = 'smtp.hostinger.com'; // Specify your SMTP server
 $mail->SMTPAuth = true;
-$mail->Username = 'info@fudsolucionesweb.com'; // SMTP username
+$mail->Username = 'matiasureta28@gmail.com'; // SMTP username
 $mail->Password = 'Ragnarok2409.'; // SMTP password
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-$mail->Port = 587;
+$mail->Port = 465;
 // Recipients
 $mail->setFrom($email, "$nombre $apellido");
-$mail->addAddress('info@fudsolucionesweb.com');
+$mail->addAddress('info@fudsolucionesweb.com'); // Add a recipient
 // Content
 $mail->isHTML(false); // Set email format to plain text
 $mail->Subject = 'Nuevo mensaje de tu sitio web';
