@@ -151,7 +151,8 @@ span.navbar-text {
 	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 .navbar-text button,
-.contacto {
+.contacto,
+.btnWsp {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
@@ -558,7 +559,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #121212;
   opacity: 0.8;
 }
-.contact form button {
+.contact form button{
   font-weight: 700;
   color: #000;
   background-color: #fff;
@@ -925,4 +926,21 @@ footer h5 {
   color: pink;
   margin: 15px;
 
+}
+
+
+
+
+
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+}
+
+#contactImg {
+  animation: bounce 2s infinite;
 }
